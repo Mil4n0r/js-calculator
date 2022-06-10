@@ -1,0 +1,86 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+
+h1 {
+    color: white;
+}
+
+.calculator {
+    width: 50%;
+}
+
+.display {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    'seven eight nine DEL'
+    'four five six plus'
+    'one two three minus'
+    'dot zero div mult'
+    'RESET RESET EQUAL EQUAL';
+    grid-gap: 10px;
+}
+
+.DEL {
+    grid-area: DEL;
+}
+.EQUAL {
+    grid-area: EQUAL;
+}
+.RESET {
+    grid-area: RESET;
+}
+
+.plus {
+    grid-area: plus;
+}
+.minus {
+    grid-area: minus;
+}
+.mult {
+    grid-area: mult
+}
+.div {
+    grid-area: div;
+}
+
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
+.seven {
+    grid-area: seven;
+}
+.eight {
+    grid-area: eight;
+}
+.nine {
+    grid-area: nine;
+}
+.zero {
+    grid-area: zero;
+}
+.dot {
+    grid-area: dot;
+}
